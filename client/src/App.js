@@ -7,7 +7,7 @@ import { setUser, setContract, setTransfer, setError } from './store/system';
 import { useSelector, useDispatch } from 'react-redux'
 
 import { ethers } from 'ethers';
-import ContractJson from './artifacts/contracts/BetWithAvax.sol/BetWithAvax.json';
+import ContractJson from './artifacts/contracts/BetWithBlockchain.sol/BetWithBlockchain.json';
 
 // SET REAL CONTRACT ADDRESS
 var ContractAddress = "0xDD967DDF11F89CDbba9071FB8dE2b1b9Ce2D2004";

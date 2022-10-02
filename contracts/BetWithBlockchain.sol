@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract BetWithAvax {
+contract BetWithBlockchain {
   uint8 private participantsCount = 0;
   mapping(uint => address) private participants;
 
